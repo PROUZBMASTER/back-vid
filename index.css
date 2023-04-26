@@ -48,3 +48,21 @@
     pointer-events: none;
     z-index: -1;
 }
+/* --------------------------------Responsive----------------- */
+@media (max-width: 575px) {
+    .jour{
+        margin-top: -90px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .btn3{
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+        color: #fff;
+        margin-top: 10px;
+        background: transparent;
+        border:1px solid white;
+        margin-left: 30%;
+    }
+    }
