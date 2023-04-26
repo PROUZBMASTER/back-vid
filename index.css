@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vid-par{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode:overlay ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.jour{
+    margin-top: -90px;
+    text-align: center;
+    font-size: 150px;
+}
+.jour:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+.btn3{
+    width: 140px;
+    height: 55px;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border:1px solid white;
+    margin-left: 35%;
+}
+.btn3:hover{
+    color: black;
+    background-color: #fff;
+}
+.my-vid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
